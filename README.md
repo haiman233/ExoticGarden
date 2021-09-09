@@ -6,11 +6,15 @@ ExoticGarden 是一个 [Slimefun 4](https://github.com/TheBusyBiscuit/Slimefun4)
 https://dev.bukkit.org/projects/exotic-garden
 
 ## 下载 ExoticGarden
-你可以在这里下载 ExoticGarden: [点此下载](https://github.com/ybw0014/ExoticGarden-CN/actions/workflows/maven.yml)
+你可以在这里下载 ExoticGarden: [点此下载](https://github.com/ybw0014/ExoticGarden-CN/actions/workflows/build.yml)
 
 <p align="center">
   <a href="https://github.com/ybw0014/ExoticGarden-CN/actions/workflows/maven.yml">
-    <img src="https://github.com/ybw0014/ExoticGarden-CN/actions/workflows/maven.yml/badge.svg" alt="Auto Build"/>
+    <img src="https://github.com/ybw0014/ExoticGarden-CN/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
+  </a>
+
+  <a href="https://github.com/ybw0014/ExoticGarden-CN/actions/workflows/build.yml">
+    <img src="https://github.com/ybw0014/ExoticGarden-CN/actions/workflows/build.yml/badge.svg" alt="Auto Build"/>
   </a>
 </p>
 
