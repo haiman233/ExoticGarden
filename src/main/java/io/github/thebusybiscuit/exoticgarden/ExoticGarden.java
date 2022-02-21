@@ -26,9 +26,9 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import net.guizhanss.guizhanlib.updater.GuizhanBuildsUpdater;
 
 import org.bstats.bukkit.Metrics;
 import org.bukkit.ChatColor;
@@ -97,8 +97,9 @@ public class ExoticGarden extends JavaPlugin implements SlimefunAddon {
         new Metrics(this, 4575);
 
         // Auto Updater
-        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "ybw0014/ExoticGarden/master").start();
+        if (getConfig().getBoolean("options.auto-update") &&
+            getDescription().getVersion().startsWith("Build")) {
+            new GuizhanBuildsUpdater(this, getFile(), "ybw0014", "ExoticGarden-CN", "master", false).start();
         }
 
         registerItems();

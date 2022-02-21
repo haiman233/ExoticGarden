@@ -76,6 +76,10 @@
                             <pattern>org.bstats</pattern>
                             <shadedPattern>io.github.thebusybiscuit.exoticgarden.bstats</shadedPattern>
                         </relocation>
+                        <relocation>
+                            <pattern>net.guizhanss.guizhanlib</pattern>
+                            <shadedPattern>io.github.thebusybiscuit.exoticgarden.guizhanlib</shadedPattern>
+                        </relocation>
                     </relocations>
 
                     <!-- Exclude unneeded metadata files from shaded dependencies -->
@@ -84,6 +88,7 @@
                             <artifact>*:*</artifact>
                             <excludes>
                                 <exclude>META-INF/*</exclude>
+                                <exclude>minecraft*</exclude>
                             </excludes>
                         </filter>
                     </filters>
@@ -133,6 +138,13 @@
             <groupId>org.bstats</groupId>
             <artifactId>bstats-bukkit</artifactId>
             <version>2.2.1</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.guizhanss</groupId>
+            <artifactId>GuizhanLib</artifactId>
+            <version>0.5.3</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
