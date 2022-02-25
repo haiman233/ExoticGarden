@@ -2,8 +2,9 @@
 
 ExoticGarden 是一个 [Slimefun 4](https://github.com/TheBusyBiscuit/Slimefun4) 附属插件，向 Slimefun 添加了各种植物、水果、蔬菜与食物。
 
-你可以在我们**过期的**BukkitDev页面找到更多信息:
-https://dev.bukkit.org/projects/exotic-garden
+## Wiki
+
+异域花园非官方中文 Wiki: https://exoticgarden.guizhanss.wiki
 
 ## 下载 ExoticGarden
 你可以在这里下载 ExoticGarden: [点此下载](https://builds.guizhanss.net/ybw0014/ExoticGarden-CN/master)
