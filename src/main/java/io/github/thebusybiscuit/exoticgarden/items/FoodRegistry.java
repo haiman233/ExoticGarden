@@ -26,6 +26,7 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
  * @author yurinogueira
  * @author Hellcode48
  * @author CURVX
+ * @author haiman233
  *
  */
 public final class FoodRegistry {
