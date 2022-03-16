@@ -154,7 +154,7 @@ public class ExoticGarden extends JavaPlugin implements SlimefunAddon {
         registerPlant("Papaya", "木瓜", ChatColor.YELLOW, PlantType.FRUIT, "631233362962e34f70de66c26ee6fcd2bbd5bc345c744f2dc42a73d779e0647e");
        
         
-        registerPlant("Onion", "葱", ChatColor.GREEN, PlantType.FRUIT, "c2dd5433db4fddebc4a77166735699400cb18d43672ab31326a83f0b7c2586cc");
+        registerPlant("Leek", "葱", ChatColor.GREEN, PlantType.FRUIT, "c2dd5433db4fddebc4a77166735699400cb18d43672ab31326a83f0b7c2586cc");
         registerPlant("Ginger", "生姜", ChatColor.YELLOW, PlantType.FRUIT, "693c3512fc5885fccbb25d2daf7fdcfae82641ed7e5e3597cddf73e41159f24");
         registerPlant("Paddy", "水稻", ChatColor.GOLD, PlantType.FRUIT, "3b3c84e4bdaf5cc5f85632ac928d059fc2f1ff0cc9e5998f1fe8b227881ada85");
         registerPlant("Ginseng Baby", "人参果娃", ChatColor.GREEN, PlantType.DOUBLE_PLANT, "36aae6717f49917e043080241264b43a8f387b2df3f61f8f70c2836cd7c3d95c");
